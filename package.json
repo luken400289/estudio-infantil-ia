@@ -1,0 +1,9 @@
+{
+  "name": "estudio-infantil-ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MVP PWA para roteiros educativos e renderização de animatic MP4",
+  "scripts": {"start":"node server.js","dev":"node --watch server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"better-sqlite3":"^11.8.1","dotenv":"^16.4.7","express":"^4.21.2","sharp":"^0.33.5"}
+}
